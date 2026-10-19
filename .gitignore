@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+logs/
+results/
+outputs/
+checkpoints/
+wandb/
+.DS_Store
