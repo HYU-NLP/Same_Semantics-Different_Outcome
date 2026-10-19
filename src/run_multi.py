@@ -47,18 +47,14 @@ class Experiment:
 # mixed: first_source is the IMAGE source, fixed across itq/tiq.
 # same modality: first_source is first in order 1 and second in order 2.
 EXPERIMENTS = {
-    "0506_multi_image=true_counter": Experiment("counter", "mixed", "counter", 2, 4096, "image=true_counter.json"),
-    "0506_multi_image=true_counter2": Experiment("counter", "mixed", "counter", 1, 8192, "image=true_counter.json"),
-    "0506_multi_image=true_para": Experiment("para", "mixed", "para", 2, 4096, "image=true_para.json"),
-    "0506_multi_image=true_para2": Experiment("para", "mixed", "para", 1, 8192, "image=true_para.json"),
-    "0506_multi_text=true_counter": Experiment("counter", "mixed", "para", 2, 4096, "text=true_counter.json"),
-    "0506_multi_text=true_counter2": Experiment("counter", "mixed", "para", 1, 8192, "text=true_counter.json"),
-    "0506_multi_text=true_para": Experiment("para", "mixed", "counter", 1, 4096, "text=true_para.json"),
-    "0506_multi_text=true_para2": Experiment("para", "mixed", "counter", 1, 8192, "text=true_para.json"),
-    "0507_multi_image_counter": Experiment("counter", "image", "counter", 1, 4096, "multi_image_counter.json"),
-    "0507_multi_image_para": Experiment("para", "image", "para", 1, 4096, "multi_image_para.json"),
-    "0507_multi_text_counter": Experiment("counter", "text", "counter", 1, 4096, "multi_text_counter.json"),
-    "0507_multi_text_para": Experiment("para", "text", "para", 1, 4096, "multi_text_para.json"),
+    "multi_image=true_counter": Experiment("counter", "mixed", "counter", 2, 4096, "image=true_counter.json"),
+    "multi_image=true_para": Experiment("para", "mixed", "para", 2, 4096, "image=true_para.json"),
+    "multi_text=true_counter": Experiment("counter", "mixed", "para", 2, 4096, "text=true_counter.json"),
+    "multi_text=true_para": Experiment("para", "mixed", "counter", 1, 4096, "text=true_para.json"),
+    "multi_image_counter": Experiment("counter", "image", "counter", 1, 4096, "multi_image_counter.json"),
+    "multi_image_para": Experiment("para", "image", "para", 1, 4096, "multi_image_para.json"),
+    "multi_text_counter": Experiment("counter", "text", "counter", 1, 4096, "multi_text_counter.json"),
+    "multi_text_para": Experiment("para", "text", "para", 1, 4096, "multi_text_para.json"),
 }
 
 
